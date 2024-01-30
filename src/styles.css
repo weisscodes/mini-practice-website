@@ -46,6 +46,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .secondary-link {
@@ -55,6 +56,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .homepage-link {
@@ -82,4 +84,20 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
 }
