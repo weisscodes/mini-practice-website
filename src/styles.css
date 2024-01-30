@@ -100,4 +100,12 @@ p {
   h2 {
     font-size: 32px;
   }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .navigation-links a {
+    margin: 10px;
+  }
 }
